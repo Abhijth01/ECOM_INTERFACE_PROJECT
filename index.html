@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshToHome Clone</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="top-left">
+            <span><i class="fa-solid fa-phone"></i> 1800-313-3302</span>
+            <span><i class="fa-solid fa-envelope"></i> customercare@freshtohome.com</span>
+        </div>
+
+        <div class="top-right">
+            <span>Certificates</span>
+            <span>Newsroom</span>
+            <span>Sell-With-Us</span>
+            <span>Bangalore ▼</span>
+        </div>
+    </div>
+
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="FTH_LOGO.webp" alt="FreshToHome Logo">
+        </div>
+
+        <!-- SEARCH -->
+        <div class="search-box">
+            <input type="text" placeholder="Search from our fresh products">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+
+        <!-- ICONS -->
+        <div class="header-icons">
+            <div class="icon"><i class="fa-regular fa-user"></i></div>
+
+            <div class="icon cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- CATEGORY BAR -->
+
+    <nav class="category-bar">
+        <div class="category-item"><i class="fa-solid fa-fish"></i> Fish & Seafood</div>
+        <div class="category-item"><i class="fa-solid fa-drumstick-bite"></i> Poultry</div>
+        <div class="category-item"><i class="fa-solid fa-bacon"></i> Mutton</div>
+        <div class="category-item"><i class="fa-solid fa-utensils"></i> Steaks & Fillet</div>
+        <div class="category-item"><i class="fa-solid fa-bowl-food"></i> Ready To Cook</div>
+        <div class="category-item"><i class="fa-solid fa-leaf"></i> Vegetarian</div>
+    </nav>
+
+    <!-- BANNER -->
+    <section class="banner">
+
+        <!-- Radio buttons -->
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+
+        <!-- Slides -->
+        <div class="banner-container">
+
+            <div class="slide s1">
+                <img src="fth1.jpeg" alt="">
+            </div>
+
+            <div class="slide s2">
+                <img src="fth2.jpeg" alt="">
+            </div>
+
+            <div class="slide s3">
+                <img src="fth3.jpeg" alt="">
+            </div>
+
+        </div>
+
+        <!-- Dots (labels control radio buttons) -->
+        <div class="dots">
+            <label for="slide1" class="dot"></label>
+            <label for="slide2" class="dot"></label>
+            <label for="slide3" class="dot"></label>
+        </div>
+
+    </section>
+
+    <!-- ===== INFO STRIP ===== -->
+
+    <section class="info-strip">
+
+        <div class="info-box">
+            <i class="fa-regular fa-user"></i>
+            <p>
+                Become a Purple Member and ENJOY UNLIMITED FREE HOME DELIVERY,
+                exclusive deals and more! <span><a href="#">JOIN NOW</a></span>
+            </p>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-truck-fast"></i>
+            <p>
+                Earliest available delivery slot in most areas is Friday, 24th April.<br>
+                Most areas we have express delivery.
+            </p>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <p>
+                Express Delivery is available on our Mobile App.
+                Download now for <span><a href="#">iOS</a></span> or <span><a href="#">ANDROID</a></span>.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- DAILY DEALS -->
+
+    <section class="deals">
+
+        <h2>Daily Deal</h2>
+
+        <div class="deal-container">
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="ghee.jpg" alt="">
+                    <h4>Chicken Ghee Roast</h4>
+                    <p><del>₹225</del> ₹165</p>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="chett.jpg" alt="">
+                    <h4>Spicy Chicken</h4>
+                    <p><del>₹225</del> ₹165</p>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="lababdar.jpg" alt="">
+                    <h4>Gravy Mix</h4>
+                    <p><del>₹175</del> ₹118</p>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="ccc.jpeg" alt="">
+                    <h4>Chicken Curry Cut</h4>
+                    <p><del>₹300</del> ₹240</p>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="fillet.jpg" alt="">
+                    <h4>Baasa Fillet</h4>
+                    <p><del>₹280</del> ₹210</p>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Flash Sale -->
+    <section class="flash">
+
+        <h2>Flash Sale</h2>
+
+        <div class="flash-container">
+
+            <!-- 1 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="ghee.jpg" alt="">
+                    <h4>Chicken Ghee Roast</h4>
+                    <p><del>₹225</del> ₹165</p>
+                </div>
+            </a>
+
+            <!-- 2 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="chett.jpg" alt="">
+                    <h4>Spicy Chicken</h4>
+                    <p><del>₹225</del> ₹165</p>
+                </div>
+            </a>
+
+            <!-- 3 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="lababdar.jpg" alt="">
+                    <h4>Gravy Mix</h4>
+                    <p><del>₹175</del> ₹118</p>
+                </div>
+            </a>
+
+            <!-- 4 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="ccc.jpeg" alt="">
+                    <h4>Chicken Curry Cut</h4>
+                    <p><del>₹300</del> ₹240</p>
+                </div>
+            </a>
+
+            <!-- 5 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="fillet.jpg" alt="">
+                    <h4>Baasa Fillet</h4>
+                    <p><del>₹280</del> ₹210</p>
+                </div>
+            </a>
+
+            <!-- 6 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="wing.jpg" alt="">
+                    <h4>Chicken Wings</h4>
+                    <p><del>₹200</del> ₹150</p>
+                </div>
+            </a>
+
+            <!-- 7 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="fishcc.jpg" alt="">
+                    <h4>Fish Curry Cut</h4>
+                    <p><del>₹260</del> ₹210</p>
+                </div>
+            </a>
+
+            <!-- 8 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="sausage.jpeg" alt="">
+                    <h4>Chicken Sausage</h4>
+                    <p><del>₹180</del> ₹140</p>
+                </div>
+            </a>
+
+            <!-- 9 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="mcc.jpg" alt="">
+                    <h4>Mutton Curry Cut</h4>
+                    <p><del>₹500</del> ₹420</p>
+                </div>
+            </a>
+
+            <!-- 10 -->
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="prawn.jpg" alt="">
+                    <h4>Prawns Cleaned</h4>
+                    <p><del>₹350</del> ₹290</p>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- SHOP BY CATEGORY -->
+    <section class="category">
+
+        <h2>Shop By Category</h2>
+
+        <div class="category-container">
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="heat.jpg" alt="">
+                    <h4>Heat & Eat</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="fish.jpg" alt="">
+                    <h4>Fish & Seafood</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="ccc.jpeg" alt="">
+                    <h4>Poultry</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="mcc.jpg" alt="">
+                    <h4>Mutton</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="rtc.jpeg" alt="">
+                    <h4>Ready to Cook</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="combo.jpg" alt="">
+                    <h4>Combo Packs</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="fillet.jpg" alt="">
+                    <h4>Steaks & Fillets</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="bread.jpg" alt="">
+                    <h4>Indian Breads</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="paneer.jpg" alt="">
+                    <h4>Dairy Products</h4>
+                </div>
+            </a>
+
+            <a href="#" class="card-link">
+                <div class="card">
+                    <img src="juice.jpg" alt="">
+                    <h4>Cold Pressed Juices</h4>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-left">
+            <h3>FreshToHome</h3>
+            <p>Your one-stop shop for fresh meat & seafood.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 FreshToHome | Demo project designed by Abhijith</p>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
