@@ -2,7 +2,6 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    zoom:110%
 }
 
 
@@ -267,7 +266,8 @@ body {
 }
 
 .card {
-    width: 180px;
+    width: 100%;
+    max-width: 180px;
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
